@@ -11,3 +11,4 @@ and output the SITK Euler 3D transform with
 ```
 outTx=run_slice_trend_rigid_alignment(fixed,moving,show_image=False,n_match_slices=20)
 ```
+For quick testing, can set show_image=True to render the alignment of the final registration with matplotlib. Parameters to adjust number of matching slices, iteration to align each 2D slice, and smoothing amount may be adjusted to achieve more accurate or efficient processing.
